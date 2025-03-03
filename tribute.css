@@ -1,0 +1,74 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000;  /* Black background */
+    margin: 0;
+    padding: 0;
+    color: #fff;  /* White text */
+}
+
+/* Image gallery section */
+.image-gallery {
+    text-align: center;
+    margin-top: 20px; /* Adds some space between header and image */
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;
+    max-width: 500px;  
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);  /* Slight shadow for contrast */
+}
+
+/* Year of Birth and Year of Death styling */
+.yob-yod {
+    color: #bbb;  /* Lighter text color for YOB and YOD */
+    font-size: 16px;  /* Smaller font size for YOB and YOD */
+    margin-top: 10px;
+}
+
+.yob-yod p {
+    margin: 5px 0;
+}
+
+.yob-yod strong {
+    font-weight: bold;
+}
+
+/* Bio section styling */
+.bio {
+    background-color: #333;  /* Dark grey for contrast */
+    padding: 15px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    font-size: 28px;  
+    color: #fff;  
+}
+
+p {
+    font-size: 16px;  
+    line-height: 1.5;  
+    margin-bottom: 15px;  
+}
+
+/* Footer styling */
+footer {
+    background-color: #111;  /* Dark footer to match header */
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    font-size: 14px;  /* Font size for footer text in pixels */
+    margin: 0;
+}
